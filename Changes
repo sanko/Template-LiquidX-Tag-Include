@@ -1,0 +1,5 @@
+Revision history for Perl extension Template-LiquidX-Tag-Include
+
+{{$NEXT}}
+
+    - Split from main Template::Liquid dist
