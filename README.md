@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/sanko/Template-LiquidX-Tag-Include.svg?branch=master)](https://travis-ci.org/sanko/Template-LiquidX-Tag-Include)
 # NAME
 
 Template::LiquidX::Tag::Include - Include another file (Functioning Custom Tag Example)

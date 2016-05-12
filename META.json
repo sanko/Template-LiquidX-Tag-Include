@@ -55,6 +55,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sanko/Template-LiquidX-Tag-Include/issues"
+      },
+      "homepage" : "https://github.com/sanko/Template-LiquidX-Tag-Include",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sanko/Template-LiquidX-Tag-Include.git",
+         "web" : "https://github.com/sanko/Template-LiquidX-Tag-Include"
+      }
+   },
    "version" : "1.0.5",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }

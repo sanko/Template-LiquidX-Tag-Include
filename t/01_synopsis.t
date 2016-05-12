@@ -14,12 +14,12 @@ if (!-d '_includes') {
     exit 0;
 }
 #
-is( Template::Liquid->parse(
-           <<'INPUT')->render(), "Testing!\r\n\n", 'Include static filename');
+like( Template::Liquid->parse(
+           <<'INPUT')->render(), qr"Testing!\r?\n\n", 'Include static filename');
 {%include 'testing.inc'%}
 INPUT
-is( Template::Liquid->parse(
-        <<'INPUT')->render(include => 'testing.inc'), "Testing!\r\n\n", 'Include dynamic filename');
+like( Template::Liquid->parse(
+        <<'INPUT')->render(include => 'testing.inc'), qr"Testing!\r?\n\n", 'Include dynamic filename');
 {%include include%}
 INPUT
 is( Template::Liquid->parse(
